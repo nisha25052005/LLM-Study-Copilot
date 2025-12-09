@@ -7,9 +7,9 @@ Built with **Python, Streamlit, FAISS, Sentence Transformers**, and **HuggingFac
 
 ---
 
-# ⭐ Features
+#  Features
 
-### 🔍 1. Ask Questions From Your PDF Notes (RAG)
+###  1. Ask Questions From Your PDF Notes (RAG)
 
 * Upload multiple PDFs
 * Extracts + chunks text
@@ -18,29 +18,29 @@ Built with **Python, Streamlit, FAISS, Sentence Transformers**, and **HuggingFac
 * Retrieves relevant chunks and answers using your notes only
 * Page numbers included
 
-### 🧠 2. LLM-Powered Answers (Local Offline Qwen Model)
+###  2. LLM-Powered Answers (Local Offline Qwen Model)
 
 * Runs **Qwen2.5-0.5B-Instruct** locally
 * Provides contextual, grounded answers
 * No API keys → No cost → Full privacy
 
-### 📝 3. Automatic Summaries
+###  3. Automatic Summaries
 
 * 10–15 bullet-point summaries
 * Key definitions, formulas, concepts
 
-### ❓ 4. MCQ Generator
+###  4. MCQ Generator
 
 * Generates exam-style MCQs
 * Options A–D
 * Correct answer shown
 
-### 🎴 5. Flashcard Creator
+###  5. Flashcard Creator
 
 * Produces concise Q–A flashcards
 * Perfect for quick revision
 
-### 🌐 6. Streamlit UI
+###  6. Streamlit UI
 
 Simple interface with:
 
@@ -51,7 +51,7 @@ Simple interface with:
 
 ---
 
-# 🧩 Project Architecture
+#  Project Architecture
 
 PDF → Extract Text → Chunk → Embed → Store in FAISS
 Query → Embed → Retrieve Relevant Chunks → Build Prompt → Qwen Answer
@@ -60,7 +60,7 @@ This ensures **low hallucination**, **fast retrieval**, and **accurate context-b
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 **Frontend:** Streamlit
 **Backend:** Python
@@ -72,7 +72,7 @@ This ensures **low hallucination**, **fast retrieval**, and **accurate context-b
 
 ---
 
-# 📂 Folder Structure
+#  Folder Structure
 
 study-copilot/
 │── app.py
@@ -88,13 +88,13 @@ study-copilot/
 
 ---
 
-# 🔁 How to Replicate This Project (Step-by-Step)
+#  How to Replicate This Project (Step-by-Step)
 
 Anyone can run this project locally by following the instructions below.
 
 ---
 
-## 🟩 **1. Clone the Repository**
+##  **1. Clone the Repository**
 
 ```
 git clone https://github.com/YOUR_USERNAME/study-copilot.git
@@ -105,7 +105,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 
 ---
 
-## 🟩 **2. Create a Virtual Environment**
+##  **2. Create a Virtual Environment**
 
 ```
 python -m venv venv
@@ -127,7 +127,7 @@ source venv/bin/activate
 
 ---
 
-## 🟩 **3. Install All Dependencies**
+##  **3. Install All Dependencies**
 
 If you have `requirements.txt`:
 
@@ -143,7 +143,7 @@ pip install streamlit PyPDF2 sentence-transformers faiss-cpu transformers accele
 
 ---
 
-## 🟩 **4. Download the LLM Automatically**
+##  **4. Download the LLM Automatically**
 
 The first time you run the project, Hugging Face will automatically download:
 
@@ -155,7 +155,7 @@ No API key needed.
 
 ---
 
-## 🟩 **5. Run the Application**
+##  **5. Run the Application**
 
 ```
 streamlit run app.py
@@ -171,7 +171,7 @@ Open it in your browser.
 
 ---
 
-## 🟩 **6. Use the App**
+##  **6. Use the App**
 
 1. Upload one or more PDFs
 2. Click **Build Knowledge Base**
@@ -182,12 +182,12 @@ Open it in your browser.
    * MCQs
    * Flashcards
 
-Enjoy! 🎉
+Enjoy! 
 Everything runs **fully offline**.
 
 ---
 
-# 📦 requirements.txt (For Replication)
+# requirements.txt (For Replication)
 
 Include this in your repo:
 
@@ -207,7 +207,7 @@ python-dotenv
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 * Support DOCX / PPT / Image OCR
 * Multiple model selector (Qwen, TinyLlama, Mistral, Phi)
@@ -217,7 +217,7 @@ python-dotenv
 
 ---
 
-# 🙌 Credits
+#  Credits
 
 * Hugging Face (Transformers + Qwen model)
 * FAISS
